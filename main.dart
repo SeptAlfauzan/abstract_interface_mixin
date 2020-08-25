@@ -90,9 +90,9 @@ class C with timeStamp implements A, B {
 
 //mixin class
 class timeStamp {
-  DateTime _now = DateTime.now();
+  DateTime _dateNow = DateTime.now();
 
-  get now => _now;
+  get now => _dateNow; //get now variable
 }
 
 class Circle extends Shape {
